@@ -5,7 +5,7 @@ docs_dir: docs/
 repo_name: 'defencedigital/dds-way'
 repo_url: 'https://github.com/defencedigital/the-foundry-way'
 nav:
-    - The Foundry Way: index.md
+    - Welcome: index.md
 theme:
   name: material
   palette:
