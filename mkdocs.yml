@@ -4,10 +4,6 @@ site_author: 'DDS'
 docs_dir: docs/
 repo_name: 'defencedigital/the-foundry-way'
 repo_url: 'https://github.com/defencedigital/the-foundry-way'
-nav:
-    - About: index.md
-    - Comms, content and publishing: comms-content-and-publishing/index.md
-    - Technology: technology/index.md
 theme:
   name: material
   palette:
