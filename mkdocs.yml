@@ -1,19 +1,34 @@
 site_name: The Foundry Way
 site_description: 'Defence Digital Foundry'
-site_author: 'DDS'
+site_author: 'Defence Digital Foundry'
+
 docs_dir: docs/
 repo_name: 'defencedigital/the-foundry-way'
 repo_url: 'https://github.com/defencedigital/the-foundry-way'
+
 theme:
   name: material
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  custom_dir: theme/
+  language: en
+  features:
+    - navigation.instant
+
+extra_css:
+  - assets/styles/extra.css
+  - assets/styles/atom-one-light.css # HightlightJS's CSS theme
+
+extra_javascript:
+  - assets/js/hljs/highlight.pack.js
+  - assets/js/extra.js
+  - assets/js/cookie-functions.js
+  - assets/js/cookie-banner.js
+  - assets/js/cookie-page.js
+  - assets/js/govuk-frontend-3.14.0.min.js
+
+# Page tree
+nav:
+  - Home: "index.md"
+  - "Comms, content and publishing": "comms-content-and-publishing/index.md"
+  - "Technology": 
+      # - Home: "technology/index.md"
+      - "Reliability Engineering": "technology/reliability-engineering/index.md"
