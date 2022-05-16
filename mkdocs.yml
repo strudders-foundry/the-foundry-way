@@ -12,6 +12,7 @@ theme:
   language: en
   features:
     - navigation.instant
+  favicon: 'assets/img/favicon.ico'
 
 extra_css:
   - assets/styles/extra.css
@@ -32,3 +33,4 @@ nav:
   - "Technology": 
       # - Home: "technology/index.md"
       - "Reliability Engineering": "technology/reliability-engineering/index.md"
+      - "Service levels": "technology/reliability-engineering/service-levels.md"
