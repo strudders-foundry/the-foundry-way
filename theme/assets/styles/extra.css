@@ -1,0 +1,158 @@
+/* overwrite govuk style */
+.govuk-header,
+.govuk-header__link--homepage,
+.govuk-header__link--service-name,
+.govuk-footer,
+.govuk-cookie-banner,
+.govuk-cookie-banner__message,
+.govuk-button,
+.govuk-button-group,
+.govuk-link,
+.govuk-label,
+.govuk-heading-xl,
+.govuk-notification-banner,
+.govuk-table,
+.govuk-fieldset__legend--s,
+.govuk-radios__item {
+  font-family: "Helvetica", "Arial", sans-serif !important;
+}
+
+.govuk-footer {
+  font-size: 0.8rem !important;
+}
+
+.govuk-cookie-banner__heading,
+.govuk-notification-banner__heading {
+  font-size: 1.2rem !important;
+}
+
+.govuk-cookie-banner__message,
+.govuk-cookie-banner__content,
+.govuk-button,
+.govuk-link,
+.govuk-body,
+.govuk-table,
+.govuk-list,
+.govuk-fieldset__legend--s,
+.govuk-label,
+.govuk-notification-banner__title {
+  font-size: 0.9rem !important;
+}
+.govuk-notification-banner__title {
+  margin: 0 !important;
+}
+@media (min-width: 40.0625em) {
+  .govuk-header__link--service-name {
+    font-size: 1.3rem !important;
+  }
+}
+
+.govuk-header__logo {
+  padding-right: 4px !important;
+}
+
+.govuk-header__link--homepage {
+  margin-right: 6px !important;
+}
+
+/* overwrite MKDocs style */
+.md-nav {
+  font-size: 0.8rem !important;
+}
+.md-search__icon {
+  color: black !important;
+}
+
+.md-search__input {
+  background-color: white !important;
+}
+
+.md-search__input::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.md-search__input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+
+.md-search__input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
+
+.md-nav--primary .md-nav__link[for="__toc"] ~ .md-nav {
+  display: none;
+}
+
+.md-header {
+  position: sticky !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* 
+.md-footer {
+    display: none;
+} */
+
+/* Fix for Chrome */
+.md-typeset__table td code {
+  word-break: unset;
+}
+
+.md-typeset__table tr :nth-child(1) {
+  word-wrap: break-word;
+  max-width: 30em;
+}
+
+body,
+input {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  font-weight: bold !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+h2 {
+  font-weight: bold !important;
+}
+
+h3 {
+  font-weight: bold !important;
+}
+
+.md-typeset h5 {
+  text-transform: none;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8d909f;
+}
+
+p.subtitle {
+  color: rgba(0, 0, 0, 0.54);
+  padding-top: 0;
+  margin-top: -2em;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none !important;
+}
+
+.markdown-body .task-list-item input[type="checkbox"] {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+.logoImage {
+  float: left;
+}
