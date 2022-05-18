@@ -30,6 +30,8 @@ extra_javascript:
 nav:
   - Home: "index.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
+  - "Product and service delivery":
+    - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Technology": 
       # - Home: "technology/index.md"
       - "Reliability Engineering": "technology/reliability-engineering/index.md"
