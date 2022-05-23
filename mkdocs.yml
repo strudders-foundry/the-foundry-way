@@ -12,6 +12,9 @@ theme:
   language: en
   features:
     - navigation.instant
+#    - navigation.tabs
+    - navigation.expand
+    - navigation.indexes
   favicon: 'assets/img/favicon.ico'
 
 extra_css:
