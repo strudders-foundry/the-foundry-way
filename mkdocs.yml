@@ -5,6 +5,7 @@ site_author: 'Defence Digital Foundry'
 docs_dir: docs/
 repo_name: 'defencedigital/the-foundry-way'
 repo_url: 'https://github.com/defencedigital/the-foundry-way'
+edit_uri: 'edit/main/docs'
 
 theme:
   name: material
@@ -35,7 +36,7 @@ nav:
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "Product and service delivery":
     - "Naming things": "product-and-service-delivery/naming-things.md"
-  - "Technology": 
+  - "Technology":
       # - Home: "technology/index.md"
       - "Reliability Engineering": "technology/reliability-engineering/index.md"
       - "Service levels": "technology/reliability-engineering/service-levels.md"
