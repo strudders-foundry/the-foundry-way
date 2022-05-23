@@ -12,6 +12,9 @@ theme:
   language: en
   features:
     - navigation.instant
+    - navigation.tabs
+    - navigation.expand
+    - navigation.indexes
   favicon: 'assets/img/favicon.ico'
 
 extra_css:
@@ -28,12 +31,13 @@ extra_javascript:
 
 # Page tree
 nav:
-  - Home: "index.md"
-  - "Comms, content and publishing": "comms-content-and-publishing/index.md"
-  - "Technology": "technology/index.md"
-      - "Tools": "technology/tools/index.md"
-      - "Techniques": "technology/techniques/index.md"
-      - "Platforms": "technology/platforms/index.md"
-      - "Frameworks": "technology/frameworks/index.md"
-      - "Reliability Engineering": "technology/reliability-engineering/index.md"
-      - "Service levels": "technology/reliability-engineering/service-levels.md"
+  - Home: 'index.md'
+  - 'Comms, content and publishing': 'comms-content-and-publishing/index.md'
+  - Technology:
+      - 'technology/index.md'
+      - Tools: 'technology/tools/index.md'
+      - Techniques: 'technology/techniques/index.md'
+      - Platforms: 'technology/platforms/index.md'
+      - Frameworks: 'technology/frameworks/index.md'
+      - 'Reliability Engineering': 'technology/reliability-engineering/index.md'
+      - 'Service levels': 'technology/reliability-engineering/service-levels.md'
