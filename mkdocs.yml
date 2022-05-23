@@ -31,13 +31,11 @@ extra_javascript:
 
 # Page tree
 nav:
-  - Home: 'index.md'
-  - 'Comms, content and publishing': 'comms-content-and-publishing/index.md'
-  - Technology:
-      - 'technology/index.md'
-      - Tools: 'technology/tools/index.md'
-      - Techniques: 'technology/techniques/index.md'
-      - Platforms: 'technology/platforms/index.md'
-      - Frameworks: 'technology/frameworks/index.md'
-      - 'Reliability Engineering': 'technology/reliability-engineering/index.md'
-      - 'Service levels': 'technology/reliability-engineering/service-levels.md'
+  - Home: "index.md"
+  - "Comms, content and publishing": "comms-content-and-publishing/index.md"
+  - "Product and service delivery":
+    - "Naming things": "product-and-service-delivery/naming-things.md"
+  - "Technology": 
+      # - Home: "technology/index.md"
+      - "Reliability Engineering": "technology/reliability-engineering/index.md"
+      - "Service levels": "technology/reliability-engineering/service-levels.md"
