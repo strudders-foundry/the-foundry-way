@@ -34,6 +34,13 @@ extra_javascript:
 nav:
   - Home: "index.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
+  - "People, skills and standards":
+    - "Communities of practice": 
+      - "Home": "people-skills-and-standards/communities-of-practice/index.md"
+      - "Running a CoP": "people-skills-and-standards/communities-of-practice/running-a-cop.md"
+      - "Existing communities": 
+        - "Product and delivery": "people-skills-and-standards/communities-of-practice/existing-communities/product-and-delivery-cop.md"
+        - "User-centred design": "people-skills-and-standards/communities-of-practice/existing-communities/ucd-cop.md" 
   - "Product and service delivery":
     - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Technology":
