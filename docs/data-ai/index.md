@@ -6,7 +6,7 @@ review_in: 6 months
 
 # Data in Digital Foundry
 
-<!-- Add Introduction here-->
+<!-- Add Introduction here -->
 
 ## What does The Data Strategy for Defence mean for Defence Digital Foundry?
 
@@ -37,7 +37,7 @@ The Data Strategy defines a framework approach to describing the ways and means 
 
 - Exploitability
 
-Foundry solutions will focus on increasing the ability to discover and understand what data is already held. It will put in place srvices which allow data to be published by data publishers as managed products, whiclts increasing the control and governance of those uses. Foundry will deliver platforms and processes to enable data to be surfaced and made accessible, and then exploited in modern and innovative ways. This includes providing services into DAIC to
+Foundry solutions will focus on increasing the ability to discover and understand what data is already held. It will put in place srvices which allow data to be published by data publishers as managed products, whilst increasing the control and governance of those uses. Foundry will deliver platforms and processes to enable data to be surfaced and made accessible, and then exploited in modern and innovative ways. This includes providing services into DAIC to
 
 ### How does Foundry work with DD CDO function?
 
@@ -52,15 +52,23 @@ Foundry is intended to be the delivery engine which implements solutions to supp
 
 ##### Authorisation
 
-Foundry Teams will need to work with Data owners to ensure they have the right permissions in place to use and exploit Data. The CDO team will support teams in establishing Ownership and Stewardship processes.
+Foundry Teams will need to work with Data owners to ensure they have the right permissions in place to use and exploit Data. The CDO team will support teams in establishing Ownership and Stewardship process,
 
 ##### Data Owner Identification
 
 #### Catalogues
 
+Data Cataloguing is a key mechanism to enable discoverability for users as well as provide management and governance tooling to data owners, and data stewards. Data Catalogues make use of metadata to describe content both to users, and to systems - so both user facing enterprise data catalogues and technical data-catalogues must be recognised, and in fact are often the same thing.
+
+Catalogues are used across the MoD at varying levels of maturity. There are also areas that do not make use of Catalogues or even metadata. Foundry will deliver the technical components needed to join up these various different levels of capability and enable a pan-defence view of data to be brought together into a federated central data catalogue.
+
+The catalogue will initially address the discoverability issues - ie exposing what data is in the estate. Once exposed, making that data accessible will need to follow via manual processes, maturing into system enabled processes.
+
+See [Use of Data Catalogues](#use-of-data-catalogues) and [Data Catalogue Solutions](#data-catalogue-solutions) for guidance on designing and building solutions utilising Data Cataloguing.
+
 #### Architecture
 
-##### Design Governance
+provides Design Governance
 
 #### Exploitation
 
@@ -74,7 +82,7 @@ Foundry Teams will need to work with Data owners to ensure they have the right p
 
 #### Definition of 'Data Products'
 
-#### Published description of shared data
+Published description of shared data
 
 #### API Usage
 
@@ -84,27 +92,45 @@ Foundry Teams will need to work with Data owners to ensure they have the right p
 
 #### Use of Data Catalogues
 
+See [Catalogues](#catalogues) above
+
+Foundry built solutions should consider data cataloguing from the outset; using data cataloguing to organise and manage its own data, how it will need to integrate into the federated data catalogue and how it may be able to consume data from other sources.
+
+See [Data Catalogue Solutions](#data-catalogue-solutions) for implementation guidance.
+
 #### Privacy (CoP7)
 
 #### Links to EA / Policies etc
 
 ### Data Processing
 
-#### Batch
-
-#### Stream
+- Batch
+- Stream
 
 ### Data Analytics
 
-#### AI
-
-#### ML
+- AI
+- ML
 
 ## Building Data Solutions (Implementation Patterns?)
 
 ### Data Solution Products
 
+Insert List of Data Components and/or link to Component library
+
 #### DDAP
+
+The Defence Data and Analytics Platform (DDAP) is a Data Platform designed to enable data to be ingested and
+
+#### Data Catalogue Solutions
+
+See [Catalogues](#catalogues) and [Use of Data Catalogues](#use-of-data-catalogues) above. Projects should decide on the best fit for their cataloguing requirements, whilst also ensuring their choice is able to integrate with the wider federated catalogue coherently (open standards, etc).
+
+The Strategic Technology choice for the federated catalogue is Informatica EDC (TBC)
+
+The [Data Publishing Service](product_page) provides mechanisms to allow programmes to expose their metadata into the federated catalogue using standard components
+
+The foundry offers the following catalogue components for use by projects...
 
 ### Storage Strategies
 
@@ -112,7 +138,7 @@ Foundry Teams will need to work with Data owners to ensure they have the right p
 
 #### Retention vs Housekeeping
 
-##### Tiers
+##### tiers
 
 ## Operating Data Solutions
 
@@ -126,10 +152,24 @@ Foundry Teams will need to work with Data owners to ensure they have the right p
 
 #### Making changes in Data Intensive systems
 
+Changes to systems which hold data need to take account of the data extant in that system. That is any changes to either the model or the view elements need to be backwardly compatible, either by being tolerant of data before the change and/or by updating data to match the new schema as part of the change. It is worth noting that changes to large volumes of data can take significant time so ideally those changes should be made out of line with application updates and/or outages in order to minimise required downtime - depending on the appropriate SLA for the application.
+
 ### OSM facets
+
+Things OSM expects from Foundry delivered solutions:
+- dock into 'backplane' within hosting solution rather than individual app integrations to Central Integration Layer (CIL)
+- OSM (Operational Service Management) requires alerts
+- CI/CD output should include OSM artefacts - service descriptions for users, service description and contact points for L1 support
 
 #### Metrics
 
+to be defined with Service Management framework V3 (SMFv3)
+
 ### Data Access Policies
 
-#### DCS
+In conjunction with CDO/data owner
+
+#### Data Centric Security (DCS)
+
+Relationship to Zero Trust Architecture (ZTA)
+Foundry guidance on DCS and ZTA - pockets of good, expand the pockets...
