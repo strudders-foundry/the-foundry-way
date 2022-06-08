@@ -14,7 +14,11 @@
 .govuk-table,
 .govuk-fieldset__legend--s,
 .govuk-radios__item {
+<<<<<<< HEAD
   font-family:  "Helvetica", "Arial", sans-serif !important;
+=======
+  font-family: "Arial", sans-serif !important;
+>>>>>>> main
 }
 
 .govuk-footer {
@@ -95,8 +99,13 @@
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
+<<<<<<< HEAD
   color: #000;
 /* 
+=======
+}
+/*
+>>>>>>> main
 .md-footer {
     display: none;
 } */
