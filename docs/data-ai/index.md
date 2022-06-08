@@ -1,117 +1,135 @@
-#Foundry Way Data (and AI?)
+<!---
+title: Data in Digital Foundry
+last_reviewed_on: 2022-06-08
+review_in: 6 months
+--->
 
-##What does The [Data Strategy for Defence](www.gov.uk/government/publications/data-strategy-for-defence) mean for Defence Digital Foundry
+# Data in Digital Foundry
 
-###6-principles of data
+<!-- Add Introduction here-->
 
-####Sovereign
+## What does The Data Strategy for Defence mean for Defence Digital Foundry?
 
-####Standardised
+The [Data Strategy for Defence](www.gov.uk/government/publications/data-strategy-for-defence) sets out the context and problem that currently faces the MoD in the data area. It describes the response in terms of setting up the Office of the CDO, and goes on to break out six key principles that will drive MoD Data Rules;
 
-####Exploitable
+### Defence data Rules
 
-####Secure and Digital by Design
+- **Sovereign** Defence data will be owned and managed by Defence for access and use by the whole of Defence
+- **Standardised** Data will be in standardised (open?) formats
+- **Exploitable** Data will be available for exploitation at the most appropriate point
+- **Secure and Digital by Design** Creation, curation, handling, storage and transmission of data will be secure and digital from the outset
+- **Curated** Data will be assured, discoverable, and interoperable by active curation
+- **Enduring** Data will be treated as an asset above and beyond the generating entity
 
-####Curated
+### Where does Foundry operate in the Defence Data Framework?
 
-####Enduring
+The Data Strategy defines a framework approach to describing the ways and means available to achieve the desired transformation. The Digital Foundry has been established to work within the Enabler and Facilitator spaces to consume the data rules, and help deliver the technology solutions that will meet the strategic vision.
 
-###Where does Foundry operate in the Defence Data Framework?
+1. Enablers
 
-####Enablers
+2. Facilitators
 
-####Facilitators
+### What are the key outcomes?
 
-####Patterns and Collaborators ?
+- Discover-ability
 
-###What are the key outcomes?
+- Accessibility
 
-####Discover-ability
+- Exploitability
 
-####Accessibility
+Foundry solutions will focus on increasing the ability to discover and understand what data is already held. It will put in place srvices which allow data to be published by data publishers as managed products, whiclts increasing the control and governance of those uses. Foundry will deliver platforms and processes to enable data to be surfaced and made accessible, and then exploited in modern and innovative ways. This includes providing services into DAIC to
 
-###How does Foundry work with DD CDO function?
+### How does Foundry work with DD CDO function?
 
-####Governance and Management
+The Defence Digital CDO function has identified 3 core pillars, and appointed leads in each of these areas:
+1. Governance and Management
+2. Data Architecture
+3. Data Exploitation
 
-#####Authorisation
+Foundry is intended to be the delivery engine which implements solutions to support and enable those pillars.
 
-#####Data Owner Identification
+#### Governance and Management
 
-####Catalogues
+##### Authorisation
 
-####Architecture
+Foundry Teams will need to work with Data owners to ensure they have the right permissions in place to use and exploit Data. The CDO team will support teams in establishing Ownership and Stewardship processes.
 
-#####Design Governance
+##### Data Owner Identification
 
-####Exploitation
+#### Catalogues
 
-###How does Foundry work with Defence AI Centre?
+#### Architecture
 
-##Designing Data Solutions (Guidance on Data Architecture)
+##### Design Governance
 
-###Foundry is subject to CDO Data Architecture principles
+#### Exploitation
 
-###Data Sharing
+### How does Foundry work with Defence AI Centre?
 
-####Definition of 'Data Products'
+## Designing Data Solutions (Guidance on Data Architecture)
 
-####Published description of shared data
+### Foundry is subject to CDO Data Architecture principles
 
-####API Usage
+### Data Sharing
 
-####Standards
+#### Definition of 'Data Products'
 
-####Use of Metadata
+#### Published description of shared data
 
-####Use of Data Catalogues
+#### API Usage
 
-####Privacy (CoP7)
+#### Standards
 
-####Links to EA / Policies etc
+#### Use of Metadata
 
-###Data Processing
+#### Use of Data Catalogues
 
-####Batch
+#### Privacy (CoP7)
 
-####Stream
+#### Links to EA / Policies etc
 
-###Data Analytics
+### Data Processing
 
-####AI
+#### Batch
 
-####ML
+#### Stream
 
-##Building Data Solutions (Implementation Patterns?)
+### Data Analytics
 
-###Data Solution Products
+#### AI
 
-####DDAP
+#### ML
 
-###Storage Strategies
+## Building Data Solutions (Implementation Patterns?)
 
-####Encryption at rest
+### Data Solution Products
 
-####Retention vs Housekeeping
+#### DDAP
 
-#####tiers
+### Storage Strategies
 
-##Operating Data Solutions
+#### Encryption at rest
 
-###Change Management
+#### Retention vs Housekeeping
 
-####Data
+##### Tiers
 
-####Metadata
+## Operating Data Solutions
 
-####System
+### Change Management
 
-####Making changes in Data Intensive systems
+#### Data
 
-###OSM facets
+#### Metadata
 
-####Metrics
+#### System
 
-###Data Access Policies
+#### Making changes in Data Intensive systems
 
-####DCS
+### OSM facets
+
+#### Metrics
+
+### Data Access Policies
+
+#### DCS
