@@ -59,3 +59,4 @@ nav:
     - "Home": "technology/index.md"
     - "Reliability Engineering": "technology/reliability-engineering/index.md"
     - "Service levels": "technology/reliability-engineering/service-levels.md"
+  - "Glossary": "glossary/index.md"
