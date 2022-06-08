@@ -14,7 +14,7 @@
 .govuk-table,
 .govuk-fieldset__legend--s,
 .govuk-radios__item {
-  font-family: "Helvetica", "Arial", sans-serif !important;
+  font-family: "Arial", sans-serif !important;
 }
 
 .govuk-footer {
@@ -92,7 +92,7 @@
   -moz-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* 
+/*
 .md-footer {
     display: none;
 } */
