@@ -38,14 +38,17 @@ extra_javascript:
 # Page tree
 nav:
   - Home: "index.md"
+  - "The Foundry": "the-foundry/mission.md"
+    - "Principles": "the-foundry/principles.md"
+    - "Who We Are": "the-foundry/who-we-are.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "People, skills and standards":
-    - "Communities of practice":
-      - "Home": "people-skills-and-standards/communities-of-practice/index.md"
-      - "Running a CoP": "people-skills-and-standards/communities-of-practice/running-a-cop.md"
+    - "Ways Of Working": "ways-of-working/index.md"
+      - "Communities of practice": "ways-of-working/communities-of-practice/index.md"
+      - "Running a CoP": "ways-of-working/communities-of-practice/running-a-cop.md"
       - "Existing communities":
-        - "Product and delivery": "people-skills-and-standards/communities-of-practice/existing-communities/product-and-delivery-cop.md"
-        - "User-centred design": "people-skills-and-standards/communities-of-practice/existing-communities/ucd-cop.md"
+        - "Product and delivery": "ways-of-working/communities-of-practice/existing-communities/product-and-delivery-cop.md"
+        - "User-centred design": "ways-of-working/communities-of-practice/existing-communities/ucd-cop.md"
   - "Product and service delivery":
     - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Data and AI":
