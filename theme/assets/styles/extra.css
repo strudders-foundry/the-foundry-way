@@ -14,7 +14,7 @@
 .govuk-table,
 .govuk-fieldset__legend--s,
 .govuk-radios__item {
-  font-family: "Helvetica", "Arial", sans-serif !important;
+  font-family:  "Helvetica", "Arial", sans-serif !important;
 }
 
 .govuk-footer {
@@ -45,6 +45,10 @@
   .govuk-header__link--service-name {
     font-size: 1.3rem !important;
   }
+}
+
+.govuk-header {
+  background: #51293a !important;
 }
 
 .govuk-header__logo {
@@ -91,7 +95,7 @@
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
-}
+  color: #000;
 /* 
 .md-footer {
     display: none;
@@ -109,7 +113,7 @@
 
 body,
 input {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 h1 {
@@ -156,3 +160,4 @@ p.subtitle {
 .logoImage {
   float: left;
 }
+

@@ -1,4 +1,4 @@
-site_name: The Foundry Way
+site_name: Defence Digital Foundry Way
 site_description: 'Defence Digital Foundry'
 site_author: 'Defence Digital Foundry'
 
@@ -14,7 +14,7 @@ theme:
   features:
     - navigation.instant
 #    - navigation.tabs
-    - navigation.expand
+#   - navigation.expand
     - navigation.indexes
   favicon: 'assets/img/favicon.ico'
 
@@ -32,18 +32,4 @@ extra_javascript:
 
 # Page tree
 nav:
-  - Home: "index.md"
-  - "Comms, content and publishing": "comms-content-and-publishing/index.md"
-  - "People, skills and standards":
-    - "Communities of practice": 
-      - "Home": "people-skills-and-standards/communities-of-practice/index.md"
-      - "Running a CoP": "people-skills-and-standards/communities-of-practice/running-a-cop.md"
-      - "Existing communities": 
-        - "Product and delivery": "people-skills-and-standards/communities-of-practice/existing-communities/product-and-delivery-cop.md"
-        - "User-centred design": "people-skills-and-standards/communities-of-practice/existing-communities/ucd-cop.md" 
-  - "Product and service delivery":
-    - "Naming things": "product-and-service-delivery/naming-things.md"
-  - "Technology":
-      # - Home: "technology/index.md"
-      - "Reliability Engineering": "technology/reliability-engineering/index.md"
-      - "Service levels": "technology/reliability-engineering/service-levels.md"
+
