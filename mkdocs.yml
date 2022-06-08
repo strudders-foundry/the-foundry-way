@@ -35,15 +35,28 @@ nav:
   - Home: "index.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "People, skills and standards":
-    - "Communities of practice": 
+    - "Communities of practice":
       - "Home": "people-skills-and-standards/communities-of-practice/index.md"
       - "Running a CoP": "people-skills-and-standards/communities-of-practice/running-a-cop.md"
-      - "Existing communities": 
+      - "Existing communities":
         - "Product and delivery": "people-skills-and-standards/communities-of-practice/existing-communities/product-and-delivery-cop.md"
-        - "User-centred design": "people-skills-and-standards/communities-of-practice/existing-communities/ucd-cop.md" 
+        - "User-centred design": "people-skills-and-standards/communities-of-practice/existing-communities/ucd-cop.md"
   - "Product and service delivery":
     - "Naming things": "product-and-service-delivery/naming-things.md"
+  - "Data and AI":
+    - "Home": "data-ai/index.md"
+  - "Software Development":
+    - "Home": "software-development/index.md"
+#    - "Choosing a programming language":
+#    - "Style guides":
+    - "How to manage third party software dependencies": "software-development/how-to-manage-third-party-software-dependencies.md"
+#    - "Building accessible services":
+#    - "Supporting different browsers":
+#    - "How to optimise frontend performance":
+#    - "Documenting architecture decisions":
+#    - "Anticipate security issues using threat modelling":
   - "Technology":
-      # - Home: "technology/index.md"
-      - "Reliability Engineering": "technology/reliability-engineering/index.md"
-      - "Service levels": "technology/reliability-engineering/service-levels.md"
+    - "Home": "technology/index.md"
+    - "Reliability Engineering": "technology/reliability-engineering/index.md"
+    - "Service levels": "technology/reliability-engineering/service-levels.md"
+  - "Glossary": "glossary/index.md"
