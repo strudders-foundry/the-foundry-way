@@ -45,6 +45,8 @@ nav:
     - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Data and AI":
     - "Home": "data-ai/index.md"
+  - "Service Management":
+    - "Home": "service-management/index.md"
   - "Software Development":
     - "Home": "software-development/index.md"
 #    - "Choosing a programming language":
