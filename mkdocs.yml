@@ -22,6 +22,11 @@ extra_css:
   - assets/styles/extra.css
   - assets/styles/atom-one-light.css # HightlightJS's CSS theme
 
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+
 extra_javascript:
   - assets/js/hljs/highlight.pack.js
   - assets/js/extra.js

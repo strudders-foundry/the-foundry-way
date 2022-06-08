@@ -102,7 +102,7 @@
 } */
 
 /* Fix for Chrome */
-.md-typeset__table td code {
+.md-typeset__table td code{
   word-break: unset;
 }
 
@@ -160,4 +160,3 @@ p.subtitle {
 .logoImage {
   float: left;
 }
-
