@@ -1,4 +1,4 @@
-site_name: The Foundry Way
+site_name: Defence Digital Foundry Way
 site_description: 'Defence Digital Foundry'
 site_author: 'Defence Digital Foundry'
 
@@ -14,7 +14,7 @@ theme:
   features:
     - navigation.instant
 #    - navigation.tabs
-    - navigation.expand
+#   - navigation.expand
     - navigation.indexes
   favicon: 'assets/img/favicon.ico'
 
