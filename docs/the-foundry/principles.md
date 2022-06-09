@@ -1,4 +1,4 @@
-# The Foundry Way
+# Foundry Principles
 
 ## Before Writing Code
 * Identify and Empower a Product Owner

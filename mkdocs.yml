@@ -1,4 +1,4 @@
-site_name: The Foundry Way
+site_name: Defence Digital Foundry Way
 site_description: 'Defence Digital Foundry'
 site_author: 'Defence Digital Foundry'
 
@@ -14,13 +14,18 @@ theme:
   features:
     - navigation.instant
 #    - navigation.tabs
-    - navigation.expand
+#   - navigation.expand
     - navigation.indexes
   favicon: 'assets/img/favicon.ico'
 
 extra_css:
   - assets/styles/extra.css
   - assets/styles/atom-one-light.css # HightlightJS's CSS theme
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
 
 extra_javascript:
   - assets/js/hljs/highlight.pack.js
@@ -32,7 +37,10 @@ extra_javascript:
 
 # Page tree
 nav:
-  - Home: "index.md"
+  - "Home": "index.md"
+  - "Ways of Working":
+    - Home: "ways-of-working/index.md"
+    - "Delivery Approach": "ways-of-working/delivery-approach/index.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "People, skills and standards":
     - "Digital communities": 
@@ -43,7 +51,19 @@ nav:
       - "Running a community": "people-skills-and-standards/digital-communities/running-a-cop.md"
   - "Product and service delivery":
     - "Naming things": "product-and-service-delivery/naming-things.md"
+  - "Data and AI":  "data-ai/index.md"
+  - "Service Management": "service-management/index.md"
+  - "Software Development":
+    - Home: "software-development/index.md"
+    - "How to manage third party software dependencies": "software-development/how-to-manage-third-party-software-dependencies.md"
+#    - "Building accessible services":
+#    - "Supporting different browsers":
+#    - "How to optimise frontend performance":
+#    - "Documenting architecture decisions":
+#    - "Anticipate security issues using threat modelling":
   - "Technology":
-      # - Home: "technology/index.md"
-      - "Reliability Engineering": "technology/reliability-engineering/index.md"
-      - "Service levels": "technology/reliability-engineering/service-levels.md"
+    - "Home": "technology/index.md"
+    - "Reliability Engineering": "technology/reliability-engineering/index.md"
+    - "Service levels": "technology/reliability-engineering/service-levels.md"
+  - "Glossary": "glossary/index.md"
+  - "Blogs": "blogs/index.md"

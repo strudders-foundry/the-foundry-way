@@ -14,7 +14,11 @@
 .govuk-table,
 .govuk-fieldset__legend--s,
 .govuk-radios__item {
-  font-family: "Helvetica", "Arial", sans-serif !important;
+<<<<<<< HEAD
+  font-family:  "Helvetica", "Arial", sans-serif !important;
+=======
+  font-family: "Arial", sans-serif !important;
+>>>>>>> main
 }
 
 .govuk-footer {
@@ -45,6 +49,10 @@
   .govuk-header__link--service-name {
     font-size: 1.3rem !important;
   }
+}
+
+.govuk-header {
+  background: #51293a !important;
 }
 
 .govuk-header__logo {
@@ -91,14 +99,19 @@
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
-}
+<<<<<<< HEAD
+  color: #000;
 /* 
+=======
+}
+/*
+>>>>>>> main
 .md-footer {
     display: none;
 } */
 
 /* Fix for Chrome */
-.md-typeset__table td code {
+.md-typeset__table td code{
   word-break: unset;
 }
 
@@ -109,7 +122,7 @@
 
 body,
 input {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 h1 {
