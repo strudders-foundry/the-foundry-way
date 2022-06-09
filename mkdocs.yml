@@ -42,14 +42,15 @@ nav:
     - Home: "ways-of-working/index.md"
     - "Delivery Approach": "ways-of-working/delivery-approach/index.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
-#  - "Ways Of Working": "ways-of-working/index.md"
-  - "Communities of practice":
-    - Home: "communities-of-practice/index.md"
-    - "Running a CoP": "communities-of-practice/running-a-cop.md"
-    - "Product and delivery": "existing-communities/product-and-delivery-cop.md"
-    - "User-centred design": "existing-communities/ucd-cop.md"
-#  - "Product and service delivery":
-  - "Naming things": "product-and-service-delivery/naming-things.md"
+  - "People, skills and standards":
+    - "Digital communities": 
+      - "Home": "people-skills-and-standards/digital-communities/index.md"
+      - "Existing communities": 
+        - "Product and delivery": "people-skills-and-standards/digital-communities/existing-communities/product-and-delivery-cop.md"
+        - "User-centred design": "people-skills-and-standards/digital-communities/existing-communities/ucd-cop.md" 
+      - "Running a community": "people-skills-and-standards/digital-communities/running-a-cop.md"
+  - "Product and service delivery":
+    - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Data and AI":  "data-ai/index.md"
   - "Service Management": "service-management/index.md"
   - "Software Development":
