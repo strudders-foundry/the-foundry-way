@@ -1,5 +1,3 @@
 # Ways of Working 
 
-The foundry follow GDS's approach to delivery and ways of working, you can find out more [here](https://www.gov.uk/service-manual/agile-delivery).
-
-The foundry way has been created to explain how we implement and approach the GDS standards in a defence context. 
+This section describes how we work within the Foundry and with our stakeholders. [Our approach to product and service delivery](../product-and-service-delivery/index.md) is explained elsewhere and so not repeated here. 
