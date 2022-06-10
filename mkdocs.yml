@@ -39,7 +39,7 @@ extra_javascript:
 nav:
   - "Home": "index.md"
   - "Ways of Working":
-    - Home: "ways-of-working/index.md"
+    - "Home": "ways-of-working/index.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "People, skills and standards":
     - "Digital communities": 
@@ -49,11 +49,12 @@ nav:
         - "User-centred design": "people-skills-and-standards/digital-communities/existing-communities/ucd-cop.md" 
       - "Running a community": "people-skills-and-standards/digital-communities/running-a-cop.md"
   - "Product and service delivery":
+    - "Home": "product-and-service-delivery/index.md"
     - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Data and AI":  "data-ai/index.md"
   - "Service Management": "service-management/index.md"
   - "Software Development":
-    - Home: "software-development/index.md"
+    - "Home": "software-development/index.md"
     - "How to manage third party software dependencies": "software-development/how-to-manage-third-party-software-dependencies.md"
 #    - "Building accessible services":
 #    - "Supporting different browsers":
