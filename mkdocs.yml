@@ -52,7 +52,12 @@ nav:
     - "Home": "product-and-service-delivery/index.md"
     - "Naming things": "product-and-service-delivery/naming-things.md"
   - "Data and AI":  "data-ai/index.md"
-  - "Service Management": "service-management/index.md"
+  - "Running products and services":
+    - "Home": "running-services/index.md"
+    - "Logging, monitoring and alerting": "running-services/logging-monitoring-alerting/index.md"
+    - "Reliability Engineering": 
+      - "Home": "running-services/reliability-engineering/index.md"
+      - "Service levels": "running-services/reliability-engineering/service-levels.md"
   - "Software Development":
     - "Home": "software-development/index.md"
     - "How to manage third party software dependencies": "software-development/how-to-manage-third-party-software-dependencies.md"
@@ -63,7 +68,5 @@ nav:
 #    - "Anticipate security issues using threat modelling":
   - "Technology":
     - "Home": "technology/index.md"
-    - "Reliability Engineering": "technology/reliability-engineering/index.md"
-    - "Service levels": "technology/reliability-engineering/service-levels.md"
   - "Glossary": "glossary/index.md"
   - "Blogs": "blogs/index.md"
