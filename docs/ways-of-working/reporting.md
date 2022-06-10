@@ -25,3 +25,7 @@ To that end, we ask our teams to do/create/maintain the following:
 <!-- Something about Architectural Decision Records -->
 <!-- Something about High-level architectural diagrams -->
 <!-- Something about User research artefacts, like user needs -->
+
+<!-- - Internal
+- Boards
+- Stakeholders -->
