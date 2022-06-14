@@ -8,7 +8,7 @@ You can read more about [managing software dependencies in the Service Manual](h
 
 Our programming language [style guides](style-guides.md) also contain language-specific advice about managing dependencies (for example, managing Python dependencies).
 
-# Update dependencies frequently
+## Update dependencies frequently
 Update your dependencies frequently rather than in ‘big bang’ batches. This works well with continuous delivery principles and makes sure the changes introduced are small and can be automatically tested.
 
 There are tools which scan GitHub repositories and raise pull requests when they find dependency updates. Teams at MOD are using:
