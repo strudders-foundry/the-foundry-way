@@ -40,13 +40,16 @@ nav:
   - "Home": "index.md"
   - "Ways of Working":
     - "Home": "ways-of-working/index.md"
+  - "User Research":
+    - "Home": "user-research/index.md"
+    - "Civilian Military Protocol": "user-research/civilian-military-protocol.md"
   - "Comms, content and publishing": "comms-content-and-publishing/index.md"
   - "People, skills and standards":
-    - "Digital communities": 
+    - "Digital communities":
       - "Home": "people-skills-and-standards/digital-communities/index.md"
-      - "Existing communities": 
+      - "Existing communities":
         - "Product and delivery": "people-skills-and-standards/digital-communities/existing-communities/product-and-delivery-cop.md"
-        - "User-centred design": "people-skills-and-standards/digital-communities/existing-communities/ucd-cop.md" 
+        - "User-centred design": "people-skills-and-standards/digital-communities/existing-communities/ucd-cop.md"
       - "Running a community": "people-skills-and-standards/digital-communities/running-a-cop.md"
   - "Product and service delivery":
     - "Home": "product-and-service-delivery/index.md"
@@ -55,7 +58,7 @@ nav:
   - "Running products and services":
     - "Home": "running-services/index.md"
     - "Logging, monitoring and alerting": "running-services/logging-monitoring-alerting/index.md"
-    - "Reliability Engineering": 
+    - "Reliability Engineering":
       - "Home": "running-services/reliability-engineering/index.md"
       - "Service levels": "running-services/reliability-engineering/service-levels.md"
   - "Software Development":
