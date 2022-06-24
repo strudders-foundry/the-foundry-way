@@ -23,6 +23,6 @@ The following is a (non-exhaustive) list of areas in which expectations may not 
 | Desired outcome | How we achieve this | Possible alternative expectation |
 | --- | --- | --- |
 | Introduce something (e.g. a feature) to the product/service | :material-check-circle: Present a hypothesis to the product team to validate and solve | :material-close-circle: Provide requirements or formed feature designs for the product team to deliver | 
-|  | :material-check-circle: | :material-close-circle: | 
-|  | :material-check-circle: | :material-close-circle: | 
-|  | :material-check-circle: | :material-close-circle: | 
+| Set or change priorities for the delivery team | :material-check-circle: If you're the Service Owner, talk to the team's Product Manager/Owner. If you're not, talk to the Service Owner | :material-close-circle: If you're the Service Owner, direct the team at large to change priorities. If you're not, request/expect a change of priority of team activities directly | 
+| Get a progress update | :material-check-circle: Go to the delivery team's 'show and tell' sessions | :material-close-circle: Request or expect a separate update session or written update | 
+| Understand higher-level priorities and progress against a longer timeline | :material-check-circle: Consult the team's [roadmap](../../people-skills-and-standards/product-management/artefacts/roadmap.md) (anybody). Service Owners, view the team's [OKR confidence](../../people-skills-and-standards/product-management/artefacts/OKRs.md) and discuss with the team's Product and Delivery Managers | :material-close-circle: Request or expect a dashboard or a report in a particular format | 
