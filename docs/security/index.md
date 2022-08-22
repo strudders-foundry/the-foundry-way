@@ -4,13 +4,13 @@ As a way to frame our security priorities (and documentation), we refer to the N
 
 - [Risk management](./threat-and-risk-management/index.md)
 - [Engagement and training](#engagement-and-training)
-- [Asset management](#asset-management) (to do - Terry H)
+- [Asset management](#asset-management) (to do)
 - [Architecture and configuration](#architecture-and-configuration) (to do)
 - [Vulnerability management](../software-development/how-to-manage-third-party-software-dependencies.md)
 - [Identity and access management](#identity-and-access-management)
-- [Data security](#data-security) (to do - N Ruddick)
+- [Data security](#data-security) (to do)
 - [Logging and monitoring](../running-services/logging-monitoring-alerting/index.md)
-- [Incident management](../running-services/incident-management.md) - Justin to chair
+- [Incident management](../running-services/incident-management.md)
 - [Supply chain security](#supply-chain-security)
 
 ## Engagement and training
