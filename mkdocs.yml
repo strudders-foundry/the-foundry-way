@@ -60,10 +60,17 @@ nav:
   - "Data and AI":  "data-ai/index.md"
   - "Running products and services":
     - "Home": "running-services/index.md"
+    - "Incident management": "running-services/incident-management.md"
     - "Logging, monitoring and alerting": "running-services/logging-monitoring-alerting/index.md"
     - "Reliability Engineering": 
       - "Home": "running-services/reliability-engineering/index.md"
       - "Service levels": "running-services/reliability-engineering/service-levels.md"
+  - "Security":
+    - "Home": "security/index.md"
+    # - "NCSC cloud security principles: a response": "security/ncsc-cloud-security-principles/index.md"
+    # - "Secure by Design": "security/secure-by-design/index.md"
+    - "Threat and risk management":
+      - "Home": "security/threat-and-risk-management/index.md"
   - "Software Development":
     - "Home": "software-development/index.md"
     - "How to manage third party software dependencies": "software-development/how-to-manage-third-party-software-dependencies.md"
