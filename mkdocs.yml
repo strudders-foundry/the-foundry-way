@@ -44,18 +44,17 @@ nav:
   - "People, skills and standards":
     - "Assuring our products and services":
       - "Home": "people-skills-and-standards/assuring-our-services/index.md"
-      # - "Service Standard assessments":
-      #   - "Home": "people-skills-and-standards/assuring-our-services/service-standard-assessments/index.md"
+      - "Service Standard assessments":
       #   - "Guidance for teams being assessed": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-for-teams.md"
-      #   - "Guidance and resources for assessors":
-      #     - "Home": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/index.md"
+        - "Guidance and resources for assessors":
+          - "Home": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/index.md"
       #     - "Guidance: organising service assessments": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/organising-service-assessments.md"
       #     - "Guidance: running a workshop": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/running-a-workshop.md"
-      #     - "Guidance: running an accessibility review": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/running-an-accessibility-review.md"
+          - "Guidance: running an accessibility review": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/running-an-accessibility-review.md"
       #     - "Guidance: writing an assessment report": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/writing-an-assessment-report.md"
       #     - "Template: assessment agendas": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/template-assessment-agendas.md"
       #     - "Template: assessment reports": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/template-assessment-reports.md"
-      #     - "Template: accessibility review report": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/template-accessibility-review.md"
+          - "Template: accessibility review report": "people-skills-and-standards/assuring-our-services/service-standard-assessments/guidance-and-resources-for-assessors/template-accessibility-review.md"
     - "Digital communities": 
       - "Home": "people-skills-and-standards/digital-communities/index.md"
       - "Existing communities": 
